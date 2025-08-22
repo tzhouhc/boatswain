@@ -1,0 +1,11 @@
+[project]
+name = "boatswain"
+version = "1.0.0"
+description = "Columbia CS TA Toolsuite"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "canvasapi==3.0.0",
+  "PyGithub==1.55",
+  "pandas>=2.0"
+]

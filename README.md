@@ -46,6 +46,16 @@ time you're using Boatswain.
 [venv]: https://virtualenv.pypa.io/en/stable/
 
 
+### Alternative via `uv`
+
+If you are already using [uv](https://github.com/astral-sh/uv) for your
+python package management, you can follow this set of instructions instead:
+
+1. Run `uv sync` to install relevant dependencies.
+
+2. Use `uv run` along with the CLI scripts, e.g. `uv run interactive.py`.
+
+
 Authenticating with Canvas
 --------------------------
 
@@ -111,17 +121,17 @@ Canvas Wrangler
 ===============
 
 > Dear CourseWorks,
-> 
-> I am so so sorry that I made fun of you and called you names.  
-> I called you CourseSucks all the time.  
-> I take it back.  
-> 
-> You are air.  
-> You are water.  
-> I never thought about what would happen to me if you left.  
-> I am going to cling to you as long as I can.  
+>
+> I am so so sorry that I made fun of you and called you names.
+> I called you CourseSucks all the time.
+> I take it back.
+>
+> You are air.
+> You are water.
+> I never thought about what would happen to me if you left.
+> I am going to cling to you as long as I can.
 > I love you.
-> 
+>
 > Jae
 
 This is the [predecessor][cw] to Boatswain, so we updated it with a few small
